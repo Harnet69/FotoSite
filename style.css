@@ -56,13 +56,27 @@ a:hover{
 			.active{
 				background:#232323; border-radius:5px 5px 0 0;
 			}	
-	
+.content-main{
+	color:#565656;font-family:Myriad Pro; font-size:13px;overflow:hidden;
+}	
+	.content-main h2{
+		margin:31px 13px 11px 0;font-size:17px; border-bottom: 1px #dbdbdb solid;
+	}
+	.content-main h2 a{
+		color:#dbdada;
+	}
+	.content-main p{
+		margin:0 15px 0 0;
+	}
+	.content-main p a{
+		color:#777777;
+	}
 	.content-main-blocks{
 		margin-top:31px; overflow:hidden;
 		padding-bottom:105px;
 	}
 		.content-main-blocks div{
-			width:30%; float:left; padding-right:5%;font-family:Myriad Pro; font-size:13px;overflow:hidden;
+			width:30%; float:left; padding-right:5%;overflow:hidden;
 		}
 		.content-main-blocks div img{
 			border:2px solid #151515;	
@@ -70,18 +84,6 @@ a:hover{
 		.content-main-blocks div:last-child{
 			width:30%; float:right; padding-right:0;
 		}
-			.content-main-blocks h2{
-				margin:31px 13px 11px 0; color:#dbdada;  font-size:17px; border-bottom: 1px #dbdbdb solid;
+			.read-more{
+				float:left; margin:25px 0 0 0; color:#000000; background:#444444; padding:0 10px;
 			}
-			.content-main-blocks p{
-				margin:0 15px 0 0; color:#565656;
-			}
-			.content-main-blocks p a {
-				float:left; margin:25px 0 0 0; color:#000000; background:#444444; padding:0 6px 0 6px;
-			}
-			.link-in-p{
-				color:#777777;
-			}
-	
-	
-	
