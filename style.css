@@ -114,8 +114,9 @@ a:hover{
 			margin-left:10px;
 		}
 .exhib p img {
-	float:left; margin-right:25px; border:none;
+	float:left; margin:0px 25px 0 0; border:none;
 }
+/*Style for page Exhibitions.html*/
 .exhib p {
-	margin:15px 0 20px 0 ;
+	float:left;margin:15px 0 20px 0;
 }
