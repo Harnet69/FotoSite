@@ -113,8 +113,8 @@ a:hover{
 		.footer-right img{
 			margin-left:10px;
 		}
-.exhib img {
-	float:left; margin-right:25px;
+.exhib p img {
+	float:left; margin-right:25px; border:none;
 }
 .exhib p {
 	margin:15px 0 20px 0 ;
