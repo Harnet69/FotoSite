@@ -85,5 +85,5 @@ a:hover{
 			width:30%; float:right; padding-right:0;
 		}
 			.read-more{
-				float:left; margin:25px 0 0 0; color:#000000; background:#444444; padding:0 10px;
+				float:left; margin:25px 0 0 0; color:#000000!important; background:#444444; padding:4px 7px 4px 7px;
 			}
