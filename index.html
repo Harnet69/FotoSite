@@ -6,6 +6,29 @@
 <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
 <script src="js/modernizr.custom.17475.js"></script>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<!--[if lte IE 9]>
+  <style type="text/css">
+	body{
+		background:url(Images/back_IE8_2.png) repeat-x 0 730px;
+	}
+	.menu, .carousel-wrapper{
+		background:url(Images/back_IE8.png);
+	}
+	.content-main-blocks div{
+			padding-right:3%;
+		}
+	.active{
+		background:url(Images/nav-hover.png) no-repeat top center; 
+	}	
+    </style>
+<![endif]-->
 <title>Второй сайт на Wordpress</title>
 </head>
 <body>
@@ -21,20 +44,22 @@
 			</ul>
 		</div>
 		<div class="content-main">
-			<ul id="carousel" class="elastislide-list">
-					<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
-					<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
-					<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
-					<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
-					<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
-					<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
-					<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
-					<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
-					<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
-					<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
-					<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
-					<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
-			</ul>
+			<div class="carousel-wrapper">
+				<ul id="carousel" class="elastislide-list">
+						<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
+						<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
+						<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
+						<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
+						<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
+						<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
+						<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
+						<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
+						<li><a href="#"><img src="images/yves-st-laurent.png" alt="yves-st-laurent" /></a></li>
+						<li><a href="#"><img src="images/pierre-cardin.png" alt="pierre-cardin" /></a></li>
+						<li><a href="#"><img src="images/paco.png" alt="paco" /></a></li>
+						<li><a href="#"><img src="images/diesel.png" alt="diesel" /></a></li>
+				</ul>
+			</div>
 			<div class="content-main-blocks">
 				<div>
 					<a href="#"><img src="Images/bloc-foto1.jpg" alt="" /></a>
