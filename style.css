@@ -2,7 +2,7 @@
 	margin:0; padding:0;
 }
 html{
-	background:#000000 url(Images/Girl.jpg) right top no-repeat; height:100%;
+	background:#000000 url(Images/Girl2.jpg) right top no-repeat; height:100%;
 }
 body{
 	height:auto!important;
@@ -86,7 +86,7 @@ a:hover{
 			width:30%; float:right; padding-right:0;
 		}
 			.read-more{
-				float:left; margin:25px 0 0 0; color:#000000!important; background:#444444; padding:4px 7px 4px 7px;
+				float:left; margin:25px 0 0 0; color:#000000!important; background:#444444; padding:0 7px 0 7px;
 			}
 .footer-wrapper{
 	width:100%;
@@ -119,4 +119,27 @@ a:hover{
 /*Style for page Exhibitions.html*/
 .exhib p {
 	float:left;margin:15px 0 20px 0;
+}
+/*Style for page about.html*/
+.about-me{
+	width:62%!important; overflow:hidden;
+}
+.about-me p{
+	margin-bottom: 20px;font-family:Myriad Pro; font-size:13px;
+}
+.about-me p:last-child{
+	margin-bottom: -20px;
+}
+.about-me h2{
+	margin:0 13px 20px 0!important;font-family:Myriad Pro; font-weight:normal;
+}
+.img-left{
+	float:left; margin:0 20px 10px 0;
+}
+.skill-set{
+	width:30%!important;
+}
+.content-main-blocks{
+		margin-top:31px; overflow:hidden;
+		padding-bottom:75px;
 }
