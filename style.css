@@ -2,7 +2,7 @@
 	margin:0; padding:0;
 }
 html{
-	background:#000000 url(Images/Girl2.jpg) right top no-repeat; height:100%;
+	background:#000000 url(Images/Girl2.jpg) center top no-repeat; height:100%;
 }
 body{
 	height:auto!important;
@@ -105,7 +105,7 @@ a:hover{
 			float:left; padding:15px 0 0 5px; font-family:Myriad Pro;
 		}
 		.footer-left p a{
-			color:#fefcfc;
+			color:#fefcfc; 
 		}		
 		.footer-right{
 			float:right; margin:10px 0 0 0 ;
@@ -113,12 +113,15 @@ a:hover{
 		.footer-right img{
 			margin-left:10px;
 		}
+.exhib{
+	overflow:hidden;
+}
 .exhib p img {
 	float:left; margin:0px 25px 0 0; border:none;
 }
 /*Style for page Exhibitions.html*/
 .exhib p {
-	float:left;margin:15px 0 20px 0;
+	margin:15px 0 20px 0;
 }
 /*Style for page about.html*/
 .about-me{
@@ -143,3 +146,20 @@ a:hover{
 		margin-top:31px; overflow:hidden;
 		padding-bottom:75px;
 }
+/*Style for page contacts.html*/
+.contact-me{
+	float:left;
+}
+.contacts-details{
+	float:right!important; overflow:hidden;
+}
+	.contacts-details img{
+		float:left; line-height:0; padding:3px 10px 0 0;
+	}
+	.contacts-details p{
+		margin-bottom:30px;
+	}
+	.contacts-details h2{
+		float:left;
+		margin:24px 0 20px 0;
+	}
