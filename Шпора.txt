@@ -16,16 +16,18 @@
 	text-transform:uppercase;// Если нужны ТОЛЬКО заглавные буквы, например в заголовке	
 	background:rgba(0,0,0,0.6) - чёрный фон с прозрачностью
 	Адаптация с IE9 и ниже
-		<![endif]-->
-		<!--[if lt IE 9]>// lt для версий ниже IE9, ltе для версий включая IE9 и ниже
-		<style type="text/css">
-	background:url(Images/nav-hover.png) no-repeat top center; background-size: 100%;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='Images/nav-hover.png', sizingMethod='scale');// растягивает фон в IE8
-	}
-		</style>
-		<![endif]-->
-
-
+			<![endif]-->
+			<!--[if lt IE 9]>// lt для версий ниже IE9, ltе для версий включая IE9 и ниже
+			<style type="text/css">
+		background:url(Images/nav-hover.png) no-repeat top center; background-size: 100%;
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='Images/nav-hover.png', sizingMethod='scale');// растягивает фон в IE8
+		}
+			</style>
+			<![endif]-->
+	<p><label for="firstName">Name</label><input type="text" name="name" id="firstName"></p>// фокус на поле ввода
+		при щелчке на label
+	outline:none;/ при фокусе убирает синюю окантовку поля ввода и окантовки ссылки (напр из Хрома)
+	.contact-form input[type=text]{}//задаёт стили только для инпутов с типом text
 
 
 

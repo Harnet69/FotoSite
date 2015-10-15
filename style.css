@@ -102,10 +102,10 @@ a:hover{
 			float:left;
 		}
 		.footer-left p{
-			float:left; padding:15px 0 0 5px; font-family:Myriad Pro;
+			float:left; padding:25px 0 0 20px; font-family:Myriad Pro;
 		}
 		.footer-left p a{
-			color:#fefcfc; 
+			color:#fefcfc;  margin-left:10px;
 		}		
 		.footer-right{
 			float:right; margin:10px 0 0 0 ;
@@ -148,18 +148,41 @@ a:hover{
 }
 /*Style for page contacts.html*/
 .contact-me{
-	float:left;
+	float:left; overflow:hidden;width:60%!important;
 }
-.contacts-details{
-	float:right!important; overflow:hidden;
-}
-	.contacts-details img{
-		float:left; line-height:0; padding:3px 10px 0 0;
+	.contact-me h2{
+		 margin:0 0 20px 0!important; color:#dbdada;
 	}
-	.contacts-details p{
-		margin-bottom:30px;
+	.contact-form{
+		float:left!important; width:100%!important; overflow:hidden;
 	}
-	.contacts-details h2{
-		float:left;
-		margin:24px 0 20px 0;
+		.contact-form p{
+			font-size:18px; margin-bottom:40px;
+		}
+		.contact-form label{
+			float:left; width:30%;
+		}
+		.contact-form input[type=text]{
+			padding: 6px 20px; background:rgba(0,0,0,0.3); border:2px solid rgba(0,0,0,0.3); border-radius:10px;color:#dbdada; width:40%;
+		}
+		.contact-form input:focus{
+			border:2px solid #2c2b28; outline:none;
+		}
+		.contact-form textarea{
+			padding: 6px 26px; background:rgba(0,0,0,0.3); border:2px solid rgba(0,0,0,0.3); border-radius:10px;color:#dbdada; width:60%; height:130px; overflow:hidden;
+		}
+		.contact-form textarea:focus{
+			border:2px solid #2c2b28; outline:none;
+		}
+	.contacts-details{
+		float:right!important; overflow:hidden;width:30%!important;
 	}
+		.contacts-details p img{
+			float:left; line-height:0; padding:0 10px 0 0;
+		}
+		.contacts-details p{
+			margin-bottom:30px;
+		}
+		.contacts-details h2{
+			margin:24px 0 20px 0; color:#dbdada;
+		}
