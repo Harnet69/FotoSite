@@ -186,3 +186,14 @@ a:hover{
 		.contacts-details h2{
 			margin:24px 0 20px 0; color:#dbdada;
 		}
+/*Style for page portfolio.html*/
+.portfolio{
+	margin-left:10px;width:66%!important; overflow:hidden; padding-right:0!important;
+}
+.portfolio div{ 
+	width:45%; float:left!important; margin: 0 0 40px 0; line-height:0;
+}
+.sidebar-portfolio{
+	float:right; width:30%!important; overflow:hidden;
+	margin-right:1%;
+}
